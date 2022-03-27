@@ -1,0 +1,21 @@
+
+
+<h2 style="text-align: center;">Products data using HttpClient</h2><br><br><br>
+<table id="products">
+	<tr>
+		<th>ID</th>
+		<th>Name</th>
+		<th>Brand</th>
+        <th>Model Name</th>
+        <th>Price</th>
+        <th>Available Quantity</th>
+	</tr>
+	<tr *ngFor="let product of productData?.products">
+		<td>{{product.id}}</td>
+		<td>{{product.Name}}</td>
+		<td>{{product.Brand}}</td>
+        <td>{{product.ModelName}}</td>
+        <td>{{product.Price}}</td>
+        <td>{{product.AvailableQuant}}</td>
+	</tr>
+</table>

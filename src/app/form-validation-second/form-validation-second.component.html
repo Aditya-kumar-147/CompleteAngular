@@ -1,0 +1,65 @@
+<html>
+
+<head>
+        
+    <style>
+        .form_class{
+          margin-top: 0px;
+        }
+        .form-control{
+          width:300px;
+       
+        }
+        body{
+          background-color: #EFEFEF;
+          height: 800px;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <br><br><br><br>
+
+<form [formGroup]="profileForm" class="form_class">
+
+
+    <div class="container">
+
+        <div class="row justify-content-md-center" style="height: 675px;">
+
+          <div class="col-md-auto">
+
+    <label for="first-name">Name: </label>
+    <input id="first-name" type="text" formControlName="firstName" class="form-control"><br>
+  
+    <label for="last-name">Email: </label>
+    <input id="last-name" type="email" formControlName="lastName" class="form-control"><br>
+
+    <label for="last-name">Mobile Number: </label>
+    <input id="last-name" type="number" formControlName="mobile" class="form-control"><br>
+
+    <label for="last-name">Pin Code: </label>
+    <input id="last-name" type="number" formControlName="pincode" class="form-control"><br>
+
+    <label for="last-name">City: </label>
+    <input id="last-name" type="text" formControlName="city" class="form-control"> <br>
+
+    <button class="btn btn-success">Submit</button>
+    <br><br><br>
+    <p>Form Status: {{ profileForm.status }}</p>
+
+
+    
+  
+  
+
+  </div>
+</div>
+</div>
+
+
+
+
+

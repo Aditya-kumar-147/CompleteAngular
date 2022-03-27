@@ -1,0 +1,21 @@
+
+
+<h2 style="text-align: center;">Employee data using HttpClient</h2><br><br><br>
+<table id="employees">
+	<tr>
+		<th>ID</th>
+		<th>Name</th>
+		<th>Salary</th>
+        <th>Department Name</th>
+        <th>City</th>
+        <th>Manager Name</th>
+	</tr>
+	<tr *ngFor="let employee of employeeData?.employees">
+		<td>{{employee.id}}</td>
+		<td>{{employee.Name}}</td>
+		<td>{{employee.Salary}}</td>
+        <td>{{employee.DepartmentName}}</td>
+        <td>{{employee.city}}</td>
+        <td>{{employee.ManagerName}}</td>
+	</tr>
+</table>

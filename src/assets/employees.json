@@ -1,0 +1,53 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "Name": "Anurag Kashap",
+      "Salary": "56000",
+      "DepartmentName":"Technology",
+      "city":"Delhi",
+      "ManagerName":"Vikas Garg"
+      
+    },
+    {
+      "id": "2",
+      "Name": "Aditya Kumar",
+      "Salary": "46000",
+      "DepartmentName":"Marketing",
+      "city":"Kanpur",
+      "ManagerName":"Vikas Garg"
+    },
+    {
+      "id": "3",
+      "Name": "Rishav Raj Jain",
+      "Salary": "86000",
+      "DepartmentName":"Technology",
+      "city":"Chennai",
+      "ManagerName":"Anil Tiwari"
+    },
+    {
+      "id": "4",
+      "Name": "Ayush Kumar",
+      "Salary": "84000",
+      "DepartmentName":"HR",
+      "city":"Delhi",
+      "ManagerName":"Swati Kumar"
+    },
+    {
+      "id": "5",
+      "Name": "Mehul Kumar",
+      "Salary": "72000",
+      "DepartmentName":"Technology",
+      "city":"Kolkata",
+      "ManagerName":"Jagdish Kotian"
+    },
+    {
+      "id": "6",
+      "Name": "Rajendra Agarwal",
+      "Salary": "71000",
+      "DepartmentName":"Sales",
+      "city":"Mumbai",
+      "ManagerName":"Vikas Garg"
+    }
+  ]
+}
